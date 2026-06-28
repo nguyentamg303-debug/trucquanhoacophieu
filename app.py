@@ -137,7 +137,6 @@ if run:
     ax[1].set_ylabel("Return")
     ax[1].set_xlabel("Date")
     ax[1].legend()ax[1].grid(True)
-
     plt.tight_layout()
 
     st.pyplot(fig)
